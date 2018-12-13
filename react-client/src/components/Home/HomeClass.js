@@ -46,7 +46,7 @@ class HomeClass extends React.Component {
                     <div classsname="images">
                         <p className="main_title"><span>Events</span></p>
                         {
-                            this.props.items.map((item) => {
+                            this.state.items.map((item) => {
                                 return (<div ref={this.myRef}>
                                     <EventClassNew item={item} />
                                 </div>)
