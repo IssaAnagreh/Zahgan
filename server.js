@@ -547,7 +547,7 @@ const ejs = require('ejs');
 
 // Set The Storage Engine
 const storage = multer.diskStorage({
-  destination: './react-client/public/images/',
+  destination: './react-client/build/images/',
   filename: function(req, file, cb){
     cb(null,file.fieldname + '-' + Date.now() + path.extname(file.originalname));
   }
