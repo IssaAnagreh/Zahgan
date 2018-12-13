@@ -599,7 +599,7 @@ app.post('/upload', (req, res) => {
         });
       } else {
         //imageName = req.file.filename
-        imageName = 'http://' + 'localhost:3000' + '/images/' + req.file.filename;
+        imageName = 'http://' + req.get('host') + '/images/' + req.file.filename;
         console.log(imageName)
         // res.send({
         //   name: `${req.file.filename}`
