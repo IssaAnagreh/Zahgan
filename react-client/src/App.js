@@ -43,6 +43,7 @@ class App extends Component {
 
 
   render() {
+    if (this.state.items){
     return (
       <BrowserRouter>
         <div className="App">
@@ -64,7 +65,13 @@ class App extends Component {
           
         </div>
       </BrowserRouter>
-    );
+    )} else {
+      return (
+          <div>
+            estanna ya zamm
+          </div>
+      )
+    }
   }
 }
 
