@@ -9,6 +9,9 @@ class HomeClass extends React.Component {
     constructor(props) {
         super(props)
         this.myRef = React.createRef();
+        this.state = {
+            items: [],
+          }
     }
 
     scrollToMyRef = () => {
@@ -17,7 +20,23 @@ class HomeClass extends React.Component {
             behavior: "smooth"
         })
     }
+
+    componentDidMount() {
+        $.ajax({
+          url: '/create',
+          type: "GET",
+          success: (data) => {
+            this.setState({
+              items: data
+            })
+          },
+          error: (err) => {
+            console.log('err', err);
+          }
+        });
+      }
     render() {
+        if (this.state.items){
         return (
             <div>
                 <div className="container-fluid" >
@@ -35,7 +54,13 @@ class HomeClass extends React.Component {
                     </div>
                 </div>
             </div>
-        )
+        )} else {
+            return (
+                <div>
+                  estanna ya zamm
+                </div>
+            )
+          }
     }
 }
 
