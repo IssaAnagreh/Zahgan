@@ -4,6 +4,7 @@ import EventClassNew from './EventClassNew'
 import Create from '../Creator/Create'
 import Slideshow from '../Slider/Slideshow';
 import Vision from '../about/Vision';
+import $ from 'jquery';
 
 class HomeClass extends React.Component {
     constructor(props) {
