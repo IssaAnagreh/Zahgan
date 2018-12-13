@@ -63,7 +63,7 @@ class HomeClass extends React.Component {
                     <Vision />
                     <div classsname="images">
                         <p className="main_title"><span>Events</span></p>
-                        <EventClassNew item={this.state.item} />
+                        <EventClassNew item={this.state.items} />
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ export default HomeClass
 
 /*
 {
-                            this.state.items.map((item) => {
+                        {    this.state.items.map((item) => {
                                 return (<div ref={this.myRef}>
                                     <EventClassNew item={item} />
                                 </div>)
