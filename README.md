@@ -61,10 +61,10 @@ Used Heroku for deployment
 
 ## Authors
 
-* **Amjad Hasnawi** - *Scrum master* - [ashrafJebril](https://github.com/ashrafJebril)
-* **Issa Anagreh** - *Team member* - [BatoolAlissa](https://github.com/BatoolAlissa)
-* **Firas Kafaween** - *Team member* - [gmajali](https://github.com/gmajali)
-* **Dana Amer** - *Team member* - [Yahyarashid](https://github.com/Yahyarashid)
+* **Amjad Hasnawi** - *Scrum master*
+* **Issa Anagreh** - *Team member*
+* **Firas Kafaween** - *Team member*
+* **Dana Amer** - *Team member*
 
 See the list of [contributors](https://github.com/fantastic-5/Zahgan/graphs/contributors) who participated in this project.
 
