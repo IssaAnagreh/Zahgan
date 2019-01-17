@@ -66,7 +66,7 @@ Used Heroku for deployment
 * **Firas Kafaween** - *Team member*
 * **Dana Amer** - *Team member*
 
-See the list of [contributors](https://github.com/fantastic-5/Zahgan/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/MaintenanceJS/Zahgan/graphs/contributors) who participated in this project.
 
 ## Acknowledgments
 
